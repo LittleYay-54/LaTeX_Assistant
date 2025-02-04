@@ -1,6 +1,5 @@
 from PyQt5.QtWidgets import (QMainWindow, QVBoxLayout, QPushButton, QWidget, QLineEdit,
                              QLabel, QGridLayout, QRadioButton, QApplication)
-from PyQt5.QtGui import QClipboard
 
 class MainWindow(QMainWindow):
     def __init__(self):
