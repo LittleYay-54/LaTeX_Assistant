@@ -129,7 +129,7 @@ class MainWindow(QMainWindow):
             self.widgets[-1].setText("Copied to clipboard!")
             self.widgets[-1].setStyleSheet("color: green")
         else:
-            status_label = QLabel("Please select one of the options")
+            status_label = QLabel("Copied to clipboard!")
             status_label.setStyleSheet("color: green")
             self.layout.addWidget(status_label)
             self.widgets.append(status_label)
